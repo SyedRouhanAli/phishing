@@ -56,3 +56,35 @@ input[type="text"]:focus, input[type="password"]:focus {
 .submit-button:hover {
     background-color: #007bbf;
 }
+
+/* Celebration Popup Styles */
+.celebration-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-align: center;
+}
+
+.celebration-popup h2 {
+    color: #333;
+}
+
+#claimButton {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#claimButton:hover {
+    background-color: #007bbf;
+}
